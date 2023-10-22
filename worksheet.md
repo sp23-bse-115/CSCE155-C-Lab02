@@ -10,13 +10,20 @@ Name(s) and Login(s):
 was born on September 9th, 1941.  If he were still alive,
 how old would he be today?  Find out by running the `birthday`
 program on the appropriate inputs and enter your solution here.
-
+ANSWER
+today is 2023/10/22
+your birthday was 1841/09/09
+Hello ,Dennis. you are-68years,-2weeks ,and old today
 
 
 
 2. Bjarne Stroustrup, the creator of the C++ programming
 language, the object-oriented extension of C, was born on
 December 30th, 1950.  How old is he today?
+ANSWER:
+ today is 2023/10/22
+ your birthday was 1950/12/30
+ hello , bjaren. you are -68 years,-2 weeks, and -4 days old today
 
 
 
@@ -27,7 +34,10 @@ referred to as *fuzzing*).  Try breaking the `birthday_cli`
 program by giving it "bad" input and observe the consequences.
 Give at least two examples of potentially bad input and the
 results you observe.
-
+ANSWER:
+   exampels 1: bad input : abbas khan 1900 4
+   result: today was 
+   Hello , abbas . you are 0 years,0 weeks, and 0 days old today.
 
 
 
@@ -37,19 +47,19 @@ results you observe.
   size: 1 byte
   range: -128 to 127
 * `short int`
-  size:
-  range:
+  size:2 byte
+  range:-32768 to 32767
 * `int`
-  size:
-  range:
+  size:4 byte
+  range:-2147483648 to 2147483647
 * `long int`
-  size:
-  range:
+  size:4
+  range:-21474838648 to 2147483647
 * `float`
-  size:
+  size:4
   range: 7 digits of accuracy
 * `double`
-  size:
+  size:4
   range: 15 digits of accuracy
 
 
@@ -57,6 +67,7 @@ results you observe.
 the exchange amounts for the following inputs:
 
   a) $250.25
+ANSWER:
 
   b) $1,000.52
 
@@ -85,3 +96,8 @@ Does the program give correct results?  Why not?
 
 c) Fix the program by editing the `area.c` source
 code so that the program produces correct results.
+ANSWER:
+the area is 8.000000square units.
+i increased the precedance level of base*triangle 
+by include parenthesis and then divided them by 2 like that 
+(base*height)/2
